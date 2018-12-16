@@ -6,7 +6,7 @@ const Header =({openNav,badgeNumber,onReset,onSearch})=>{
 	return (
 		<div>
 			<nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		      <a className="navbar-brand" href="#">Product Comparison</a>
+		      <a className="navbar-brand" href="#">The Differentiator</a>
 		      <span className="header">
 		      	<button className="btn btn-success m-2" onClick={openNav} disabled={badgeNumber>=2?false:true}>Compare</button>
 		      	<span className="badge badge-pill badge-primary m-2">{badgeNumber}</span>
